@@ -14,8 +14,8 @@ int main() {
     typedef deque<string> prefix;
     map<prefix, vector<string>> statetab;
 
-    const string input_path = R"(../data/input.txt)";
-    const string output_path = R"(../data/output.txt)";
+    const string input_path = R"(../data/text_input.txt)";
+    const string output_path = R"(../data/text_output.txt)";
 
     prefix pref;
     prefix initialWords;
